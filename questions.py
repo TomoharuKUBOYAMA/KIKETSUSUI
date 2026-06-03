@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1H7Jc3BpkmnmubgvP-Tm71QxPAahbquBW
 """
 
-APP_TITLE = "気血水スコア診断"
+APP_TITLE = "気血水スコア判定"
 APP_DESCRIPTION = "寺澤式の気血水スコアを応用したものです。"
 DISCLAIMER_TEXT = "このアプリはセルフチェック用の試作版です。医療上の診断を行うものではありません。"
 
