@@ -43,12 +43,12 @@ for score_type in TYPES:
         )
         answers[q["id"]] = labels.index(selected_label)
 
-if st.button("診断する", type="primary"):
+if st.button("判定する", type="primary"):
     totals = calculate_scores(answers, QUESTIONS)
     result_label, top_types = judge_result(totals, red_flag=red_flag)
     score_df = build_score_table(totals)
 
-    st.subheader("診断結果")
+    st.subheader("判定結果")
 
     if result_label == "複合傾向":
         st.success(f"判定：複合傾向（{'・'.join(top_types)}）")
