@@ -364,8 +364,8 @@ QUESTIONS = [
         "text": "体が重い感じがしますか？",
         "choices": [
             {"label": "いいえ", "score": 0},
-            {"label": "少しある", "score": 1},
-            {"label": "かなりある", "score": 3},
+            {"label": "少しある", "score": 2},
+            {"label": "かなりある", "score": 4},
         ],
     },
     {
@@ -374,8 +374,8 @@ QUESTIONS = [
         "text": "頭が重い感じがありますか？",
         "choices": [
             {"label": "いいえ", "score": 0},
-            {"label": "少しある", "score": 1},
-            {"label": "かなりある", "score": 3},
+            {"label": "少しある", "score": 2},
+            {"label": "かなりある", "score": 4},
         ],
     },
     {
@@ -454,8 +454,8 @@ QUESTIONS = [
         "text": "朝、関節がこわばりますか？",
         "choices": [
             {"label": "いいえ", "score": 0},
-            {"label": "少しある", "score": 3},
-            {"label": "かなりある", "score": 7},
+            {"label": "少しある", "score": 5},
+            {"label": "かなりある", "score": 10},
         ],
     },
     {
