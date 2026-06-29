@@ -328,8 +328,8 @@ QUESTIONS = [
         "text": "へその斜め下を押すと痛いですか？",
         "choices": [
             {"label": "いいえ", "score": 0},
-            {"label": "少しある", "score": 5},
-            {"label": "かなりある", "score": 10},
+            {"label": "少しある", "score": 10},
+            {"label": "かなりある", "score": 20},
         ],
     },
     {
